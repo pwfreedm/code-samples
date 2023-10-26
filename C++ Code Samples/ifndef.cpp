@@ -34,6 +34,7 @@ int main(int argc, char** argv)
 
 void method2(int argc)
 {
+  //can use macro names globally even if they aren't defined globally
     #ifdef DEBUGINFO 
     std::cout << "method2 sees DEBUGINFO\n";
     //#elif allows condition eval to define

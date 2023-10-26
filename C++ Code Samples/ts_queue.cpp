@@ -20,6 +20,8 @@ struct queue
 {
   //private to force thread safe uses only.
   private:
+  //lineReady is not needed for this example, but this is generically
+  //how condition variables operate.
    bool lineReady{false};
    std::mutex m;
    std::condition_variable cv;

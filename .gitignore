@@ -1,7 +1,7 @@
 
 #ignore basic executable types
-.o
-.a
-.out
-.exe
-.msi
+*.o
+*.a
+*.out
+*.exe
+*.msi
